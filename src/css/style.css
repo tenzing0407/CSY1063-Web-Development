@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width:100%;
+}    
+
+nav {
+    background:#B5B8A0;
+    height:70px;
+    display:flex;
+    align-items:center;
+    
+}
+nav ul{
+    display:flex;
+    margin-left:500px;
+    gap:60px; 
+    justify-content:center;
+  
+}
+
+nav ul li {
+    list-style:none;
+  
+}
+nav ul li a {
+    text-decoration:none;
+    font-size:1rem;
+    color:#000000;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+
+.container {
+  width: 100%;
+}
+
+nav {
+  background-color: #B5B8A0;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  height: 320px;
+}
+
+.hero-bg {
+  background-color: #bfc8a5;
+  height: 100%;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-img {
+  position:relative;
+  margin:50px 0 0 0;
+  top:200px;
+  width:100%;
+  height:24vh;
+  background:#B5B8A0;
+  
+
+}
+
+.profile-img img {
+  position:absolute;
+  top:-180px;
+  right:570px;
+  width:300px;
+  height:300px;
+  border-radius:100%;
+  object-fit:cover;
+
+
+
+}
+
+.intro {
+  margin-top: 130px;
+  padding: 20px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  font-weight:600;
+  margin-bottom: 10px;
+}
+
+.intro h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #777;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    gap: 20px;
+  }
+
+  .intro h1 {
+    font-size: 26px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    bottom: -60px;
+  }
+}
