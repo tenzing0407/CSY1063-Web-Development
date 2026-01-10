@@ -1,5 +1,4 @@
 
-
 .projects {
   padding: 50px 0;
 }
@@ -22,7 +21,7 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 32px;
 }
 
 .project-card {
