@@ -63,6 +63,7 @@ nav ul li a {
     background: #d4d6c5;
     margin: 0 20px 10px 20px;
     padding: 20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .box ul {
@@ -78,7 +79,7 @@ label {
 input, textarea {
     width: 100%;
     padding: 10px;
-    border: none;
+    border: 0.5px solid hsl(0, 0%, 80%);
     margin-top: 5px;
 }
 

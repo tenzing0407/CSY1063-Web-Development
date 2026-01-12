@@ -1,7 +1,19 @@
 
 .projects {
   padding: 50px 0;
+
 }
+
+.project-card:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow:0 10px 30px #5cc73580;
+    transform:translateY(-7px);
+}
+ 
+
+
+
 
 .container {
   width: 100%;
